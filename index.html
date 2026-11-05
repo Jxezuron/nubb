@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Regitster</title>
+    
+</head>
+<body>
+    <h1>Register your account</h1>
+    <form action="index3.html">
+        <fieldset>
+            <legend>Personal information</legend>
+            <p>
+                <label for="fname">first name: </label> 
+                <input type="text" name="fname" id="fname" placeholder="Enter your first name"> <br>
+            </p>
+            <p>
+                <label for="lname">Last Name: </label>
+                <input type="text" name="lname" id="lname" placeholder="Enter your last name"><br>
+            <p>
+            <p>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email"><br>
+            </p>
+            <p>
+                <label for="password">Passsword</label>
+                <input type="password" name="password" id="password"><br>
+            </p>
+            <p>
+                <label for="dob">Date of Birth: </label>
+                <input type="date" name="dob" id="dob">
+            </p>
+            <p>
+                <label for="gender">Gender</label>
+                <input type="radio" name="gender" id="gender"> <b>Male</b>
+                <input type="radio" name="gender" id="gender"> <b>Female</b>
+            </p>
+            <p>
+                <label for="phone">Number Phone</label>
+                <input type="tel" name="phone" id="phone">
+            </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Acedemic information</legend>
+            <p>
+                <label for="sdid">Student ID: </label>
+                <input type="number" name="number" id="number">
+            </p>
+            <p>
+                <label for="major">Major: </label>
+                <select>
+                    <option value="law">Law</option>
+                    <option value="it">IT</option>
+                    <option value="math">Math</option>
+                    <option value="khmer">Khmer</option>
+                    <option value="english">English</option>
+                    <option value="tourism">Tourism</option>
+                </select>
+            </p>
+            <p>
+                <label for="skill">Skills: </label>
+                <input type="checkbox" name="html" id="html"> <b>HTML</b>
+                <input type="checkbox" name="css" id="css"> <b>CSS</b>
+                <input type="checkbox" name="javascript" id="javascript"> <b>JAVASCRIPT</b>
+                <input type="checkbox" name="c++" id="c++"> <b>C++</b>
+                <input type="checkbox" name="python" id="python"> <b>PYTHON</b>
+                <input type="checkbox" name="rust" id="rust"> <b>RUST</b>
+            </p>
+            <p>
+                <label for="photo">Upload your Photo</label> <br>
+                <input type="file" name="photo" id="photo">
+            </p>
+        </fieldset>
+        <br>
+
+        <fieldset >
+            <legend>Additional information</legend>
+            <label for="address">Address: </label> <br>
+            <textarea name="address" id="address">HELLO MF</textarea>
+            <p>
+                <label for="web">Person Website:</label>
+                <input type="text" name="web" id="web">
+            </p>
+            <p>
+                <label for="color">Favorite Color: </label>
+                <input type="color" name="color" id="color">
+            </p>
+        </fieldset>
+
+        <input type="checkbox" name="check" id="check"> i agress to the registration terms.
+        <br>
+        <button type="submit" >Regitster</button>
+        <button type="reset" >Clear Form</button>
+
+    </form>
+</body>
+</html>
